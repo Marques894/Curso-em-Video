@@ -22,10 +22,10 @@ function verificar() {
             gênero = 'Homem';
             if (idade > 0 && idade <= 12) {
                 //Criança
-                img.setAttribute('src', 'homem-criança.svg')
+                img.setAttribute('src', './asset/homem-criança.svg')
             } else if (idade >= 13 && idade <= 18) {
                 //Adolecente
-                img.setAttribute('src', 'homem-adolecente.svg')
+                img.setAttribute('src', './asset/homem-adolecente.svg')
             } else if (idade >= 19 && idade < 60) {
                 //Adulto
                 img.setAttribute('src', 'homem-adulto.svg')
